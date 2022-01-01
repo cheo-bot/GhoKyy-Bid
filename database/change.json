@@ -1,0 +1,14 @@
+[
+  {
+    "topik": "#tiktok",
+    "desc": "Fitur ini berfungsi untuk mendownload video tiktok tanpa watermark, beberapa link tidak bisa di download."
+  },
+  {
+    "topik": "#buylimit & #buyglimit",
+    "desc": "Fitur ini berfungsi untuk membeli limit harian ataupun limit game jika anda sudah kehabisan limit, kirim perintah #buylimit jumlah contoh #buylimit 2 begitu pula untuk #buyglimit 2"
+  },
+  {
+    "topik": "#nhentaidl",
+    "desc": "Fitur ini berfungsi untuk mendownload nhentai pdf, contoh command #nhentaidl <code> atau #nhentaidl 212121 fitur ini menggunakan 1 limit harian. Gunakan dengan bijak"
+  }
+]
