@@ -5162,11 +5162,9 @@ _Tunggu beberapa menit, file segara dikirim!_`
 				  reply(`Topik tersebut tidak terdaftar dalam database!`)
 				}
 				break
-//------------------< G R U P >-------------------
-            case prefix+'delete': case prefix+'del': case prefix+'d':
-                if (!isGroup)return reply(mess.OnlyGrup)
-                if (!isGroupAdmins && !isOwner && !msg.key.fromMe)return reply(mess.GrupAdmin)
-                if (!isQuotedMsg) return reply(`Reply pesan dari bot`)
+//------------< G R U P >-------------------
+            case prefix+'delete': case prefix+'del': case prefix+'d': 
+     if (!isQuotedMsg) return reply(`Reply pesan dari bot`)
                 if (!quotedMsg.fromMe) return reply(`Reply pesan dari bot`)
                 addCountCmd('#delete', sender, _cmd)
                 xinz.deleteMessage(from, { remoteJid: from, id: quotedMsg.id, fromMe: true })
