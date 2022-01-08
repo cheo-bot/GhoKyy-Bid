@@ -1,3 +1,3 @@
-worker : npm install && npm start
+worker : npm install @adiwajshing/baileys && npm start
 
 
