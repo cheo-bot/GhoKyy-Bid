@@ -3643,7 +3643,7 @@ Nomor : @${ownerNumber.split("@")[0]}`
                 case prefix+'ytshort':{
                 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
                 if (args.length === 1) return reply(`Kirim perintah *${command} [linkYt]*`)
-                let isLinks2 = args[1].match(/(?:https?:\/{2})?(?:w{3}\.)?youtu(?:be)?\.(?:com|be)(?:\/shorts\/|\/)([^\s&]+)(?:\?feature=share)/)
+                let isLinks2 = args[1].match(/(?:https?:\/{2})?(?:w{3}\.)?youtu(?:be)?\.(?:com|be)(?:\/shorts\/|\/)([^\s&]+)(?:?\/?)(?:feature=share)/)
                 if (!isLinks2) return reply(mess.error.Iv)
                 addCountCmd('#ytmp4', sender, _cmd)
                 try {
