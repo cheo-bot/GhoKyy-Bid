@@ -1710,7 +1710,7 @@ Instagram : instagram.com/iamghosky_
                  }
                  xinz.sendMessage(from, buttonMessage, buttonsMessage, {detectLinks: false, contextInfo: {mentionedJid: [ownerNumber, sender]}})
 */
-                xinz.sendButLocation(from, menu(xinz, prefix, pushname, ucapanWaktu, sender, isOwner, isPremium, gcount, glimit, baterai, limit, balance, getLimit, getBalance, cekGLimit, _cmd), 'Thanks To\n- Xinz Team\n- Arasya\n- Xyann\n- Takim\n- Lolhuman\n- Xteam', fs.readFileSync('./media/saskeh.jpg'), [ { buttonId: `${prefix}sc`, buttonText: { displayText: "Source Code" }, type: 1}, { buttonId: `${prefix}owner`, buttonText: { displayText: "Owner" }, type: 1}], { contextInfo: { mentionedJid: [sender, ownerNumber, ghoo], externalAdReply: { title: `Follow My Instagram`, body: `Click Here >_<`, mediaType: 2, thumbnail: fs.readFileSync('./media/fllw.jpg'), mediaUrl: `instagram.com/iamghosky_` }}})
+                xinz.sendButLocation(from, menu(xinz, prefix, pushname, ucapanWaktu, sender, isOwner, isPremium, gcount, glimit, baterai, limit, balance, getLimit, getBalance, cekGLimit, _cmd), 'Thanks To\n- Xinz Team\n- Arasya\n- Xyann\n- Takim\n- Lolhuman\n- Xteam', fs.readFileSync('./media/saskeh.jpg'), [ { buttonId: `${prefix}sc`, buttonText: { displayText: "Source Code" }, type: 1}, { buttonId: `${prefix}owner`, buttonText: { displayText: "Owner" }, type: 1}], { contextInfo:{ title: `Follow My Instagram`, body: `Click Here >_<`, mediaType: 2, thumbnail: fs.readFileSync('./media/fllw.jpg'), mediaUrl: `instagram.com/iamghosky_`, mentionedJid: [sender, ownerNumber, ghoo]}}})
                 addCountCmd('#help', sender, _cmd)
             }
                 break
