@@ -12,8 +12,7 @@
 
   "buildpacks": [{
 
-    "url": "https://github.com/chluang/heroku-buildpack-libwebp-binaries"
-
+    "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries"
   }, {
 
     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
